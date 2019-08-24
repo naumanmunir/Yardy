@@ -1,0 +1,72 @@
+<form [formGroup]="saleForm" (ngSubmit)="createSale(saleForm.value)">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <br />
+        <h4>Post a Yardy Sale</h4>
+        <hr />
+      </div>
+      <div class="col-sm-12">
+        <div class="form-group">
+          <label>Title</label>
+          <input id="txtTitle" type="text" name="title" value="" placeholder="Title" class="form-control" formControlName="title" />
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <textarea id="txtDesc" type="text" name="desc" value="" placeholder="Description" class="form-control" rows="3" formControlName="descr"></textarea>
+        </div>
+        <br />
+        <div class="row">
+          <div class="form-group form-group-sm col-sm-6">
+            <div class="row">
+              <label for="txtStartDate" class="col-sm-3 col-form-label">Start Date</label>
+              <div class="col-sm-9">
+
+                <div class="form-group">
+                  <div class="input-group">
+                    <input id="txtStartDate" type="text" value="" placeholder="mm-dd-yyyy" class="form-control" name="startDate" ngbDatepicker #sD="ngbDatepicker" formControlName="startDate" />
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary " (click)="sD.toggle()" type="button"><i class="fas fa-calendar"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group form-group-sm col-sm-6">
+            <div class="row">
+              <label for="txtEndDate" class="col-sm-3 col-form-label">End Date</label>
+              <div class="col-sm-9">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input id="txtEndDate" type="text" value="" placeholder="mm-dd-yyyy" class="form-control" name="endDate" ngbDatepicker #eD="ngbDatepicker" formControlName="endDate" />
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary " (click)="eD.toggle()" type="button"><i class="fas fa-calendar"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div *ngIf="submitted && !success">
+          <div *ngIf="saleForm.controls.title.errors?.required" class="text-danger">
+            Title is required!
+          </div>
+          <div *ngIf="saleForm.controls.descr.errors?.required" class="text-danger">
+            Description is required!
+          </div>
+          <div *ngIf="saleForm.controls.startDate.errors?.required" class="text-danger">
+            Start Date is required!
+          </div>
+          <div *ngIf="saleForm.controls.endDate.errors?.required" class="text-danger">
+            End Date is required!
+          </div>
+        </div>
+          <button type="submit" class="btn btn-success float-sm-right">Post!</button>
+        </div>
+    </div>
+  </div>
+</form>

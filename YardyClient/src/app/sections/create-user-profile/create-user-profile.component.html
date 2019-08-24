@@ -1,0 +1,64 @@
+<form [formGroup]="profileForm" (ngSubmit)="createUserProfile(profileForm.value)" class="form-horizontal">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <br />
+        <h4>User Profile</h4>
+        <hr />
+        <h5 *ngIf="success">User Profile Created!</h5>
+      </div>
+      <div class="form-group form-group-sm col-sm-6">
+        <div class="row">
+          <label class="col-sm-3 col-form-label" for="inputFirstName">First Name</label>
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" formControlName="firstName">
+          </div>
+        </div>
+      </div>
+      <div class="form-group form-group-sm col-sm-6">
+        <div class="row">
+          <label class="col-sm-3 col-form-label" for="inputLastName">Last Name</label>
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name" formControlName="lastName">
+          </div>
+        </div>
+      </div>
+      <div class="form-group  form-group-sm col-sm-6">
+        <label for="inputEmail">Email</label>
+        <input type="text" class="form-control" id="inputEmail" formControlName="email">
+      </div>
+      <div class="form-group form-group-sm col-sm-6">
+        <label for="inputDob">Date of Birth</label>
+        <input type="text" class="form-control" id="inputDob" formControlName="dob">
+      </div>
+      <div class="form-group form-group-sm col-sm-6">
+        <label for="inputStreet">Street</label>
+        <input type="text" class="form-control" id="inputStreet" formControlName="street">
+      </div>
+      <div class="form-group form-group-sm col-sm-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity" formControlName="city">
+      </div>
+      <div class="form-group form-group-sm col-sm-6">
+        <label for="inputPostal">Zip/Postal Code</label>
+        <input type="text" class="form-control" id="inputPostal" formControlName="zip">
+      </div>
+      <div *ngIf="submitted">
+        <div *ngIf="profileForm.controls.firstName.errors?.required" class="text-danger">
+          First Name is Required!
+        </div>
+        <div *ngIf="profileForm.controls.lastName.errors?.required" class="text-danger">
+          Last Name is Required!
+        </div>
+        <div *ngIf="profileForm.controls.email.errors?.required" class="text-danger">
+          Email is Required!
+        </div>
+      </div>
+      
+      <div class="col-sm-12">
+        <br />
+        <button type="submit" class="btn btn-success">Save</button>
+      </div>
+    </div>
+  </div>
+</form>
