@@ -1,0 +1,31 @@
+<p>current-yard-sales works!</p>
+
+<ul>
+  <li *ngFor="let sale of sales">
+    <span class="badge">{{sale.id}}</span> {{sale.Title}}
+  </li>
+</ul>
+
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Title</th>
+      <th scope="col">Description</th>
+      <th scope="col">Start Date</th>
+      <th scope="col">End Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let sale of sales">
+      <th scope="row">{{ sale.id }}</th>
+      <td><ngb-highlight [result]="sale.Title" ></ngb-highlight></td>
+      <td><ngb-highlight [result]="sale.Description" ></ngb-highlight></td>
+      <td><ngb-highlight [result]="sale.SaleStart | date" ></ngb-highlight></td>
+      <td><ngb-highlight [result]="sale.SaleEnd | date" ></ngb-highlight></td>
+    </tr>
+  </tbody>
+</table>
+

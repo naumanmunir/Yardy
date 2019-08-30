@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './sections/login/login.component';
 import { CreatesaleComponent } from './sections/createsale/createsale.component';
+import { CurrentYardSalesComponent } from './components/current-yard-sales/current-yard-sales.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CreatesaleComponent } from './sections/createsale/createsale.component'
     NavbarComponent,
     CreateUserProfileComponent,
     LoginComponent,
-    CreatesaleComponent
+    CreatesaleComponent,
+    CurrentYardSalesComponent
   ],
   imports: [
     BrowserModule,
