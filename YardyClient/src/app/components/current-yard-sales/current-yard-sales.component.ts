@@ -18,4 +18,8 @@ export class CurrentYardSalesComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSelect(selectedItem: any) {
+    console.log(selectedItem.Title);
+  }
+
 }

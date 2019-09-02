@@ -26,5 +26,7 @@ namespace Yardy.Models
         public string PostalCode { get; set; }
 
         public DateTime Created { get; set; }
+
+        public bool Active { get; set; }
     }
 }

@@ -91,7 +91,7 @@ namespace Yardy.Controllers
             {
                 return BadRequest(ModelState);
             }
-
+            
             yardSale.Active = true;
             yardSale.Created = DateTime.Now;
 
