@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Yardy.Models;
 using System.Linq;
+using Yardy.ViewModels;
 
 namespace Yardy
 {
@@ -111,16 +112,28 @@ namespace Yardy
             return false;
         }
 
-        public User GetUserInfo(string username)
+        public LoginResponse GetUserInfo(string username, string pw)
         {
 
             //TODO: Join on user profile??
 
             try
             {
-                var res = context.User.Where(x=>x.Username == username)
+                var user = context.User.Where(x => x.Username == username && x.Password == pw).FirstOrDefault();
 
+                if (user != null)
+                {
+                    LoginResponse loginResponse = new LoginResponse();
 
+                    loginResponse.Username = user.Username;
+                    loginResponse.UserId = user.UserId;
+                    loginResponse.RoleId = context.UserRole.Where(x => x.UserId == user.UserId).FirstOrDefault().RoleId;
+                    loginResponse.Status = user.Active;
+
+                    return loginResponse;
+                }
+
+                return null;
             }
             catch (System.Exception)
             {

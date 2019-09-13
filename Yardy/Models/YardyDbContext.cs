@@ -8,7 +8,8 @@ namespace Yardy.Models
         public DbSet<YardSale> YardSales { get; set; }
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<User> User { get; set; }
-
+        public DbSet<UserRole> UserRole { get; set; }
+        public DbSet<Role> Role { get; set; }
 
         public YardyDbContext(DbContextOptions<YardyDbContext> options) : base(options)
         {

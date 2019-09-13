@@ -6,7 +6,7 @@ namespace Yardy.Models
     public class UserProfile
     {
         [Key]
-        public int Id { get; set; }
+        public int UserProfileId { get; set; }
 
         [Required]
         public string Firstname { get; set; }
@@ -16,7 +16,6 @@ namespace Yardy.Models
         [Required]
         public string Email { get; set; }
         
-
         public DateTime Dob { get; set; }
         
         public string Street { get; set; }

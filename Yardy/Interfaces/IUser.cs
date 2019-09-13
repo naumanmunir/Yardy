@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Yardy.ViewModels;
 
 namespace Yardy.Models
 {
@@ -10,7 +11,7 @@ namespace Yardy.Models
         bool UpdateUser(User user);
         User GetUserByID(int id);
         bool AuthenticateUser(string username, string pw);
-        User GetUserInfo(string username);
+        LoginResponse GetUserInfo(string username, string pw);
 
         //List or IEnumerable????
         List<User> GetAllUsers();
