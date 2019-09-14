@@ -36,7 +36,7 @@ namespace Yardy
 
         public bool DeleteUser(int id)
         {
-            var user = context.User.Where(x => x.Id == id).FirstOrDefault();
+            var user = context.User.Where(x => x.UserId == id).FirstOrDefault();
 
             if (user != null)
             {
@@ -67,7 +67,7 @@ namespace Yardy
 
         public User GetUserByID(int id)
         {
-            return context.User.Where(x => x.Id == id).FirstOrDefault();
+            return context.User.Where(x => x.UserId == id).FirstOrDefault();
 
         }
 

@@ -57,7 +57,7 @@ namespace Yardy.Controllers
                 return BadRequest(ModelState);
             }
 
-            if (id != userProfile.Id)
+            if (id != userProfile.UserProfileId)
             {
                 return BadRequest();
             }
@@ -99,7 +99,7 @@ namespace Yardy.Controllers
             await _context.SaveChangesAsync();
 
             //return Ok();
-            return CreatedAtAction("GetUserProfile", new { id = userProfile.Id }, userProfile);
+            return CreatedAtAction("GetUserProfile", new { id = userProfile.UserProfileId }, userProfile);
         }
 
         // DELETE: api/UserProfiles/5
@@ -125,7 +125,7 @@ namespace Yardy.Controllers
 
         private bool UserProfileExists(int id)
         {
-            return _context.UserProfiles.Any(e => e.Id == id);
+            return _context.UserProfiles.Any(e => e.UserProfileId == id);
         }
     }
 }
