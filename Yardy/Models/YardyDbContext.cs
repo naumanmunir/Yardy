@@ -11,13 +11,18 @@ namespace Yardy.Models
         public DbSet<UserRole> UserRole { get; set; }
         public DbSet<Role> Role { get; set; }
 
+        public YardyDbContext()
+        {
+
+        }
+
         public YardyDbContext(DbContextOptions<YardyDbContext> options) : base(options)
         {
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=Yardy;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=nauman\sqlexpress;Database=Yardy;Trusted_Connection=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
