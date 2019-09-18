@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -56,7 +58,7 @@ namespace Yardy.Controllers
                 u.UserId = userViewModel.UserId;
                 u.Username = userViewModel.Username;
                 u.Password = userViewModel.Password;
-                u.Active = 
+                u.Active = userViewModel.Active;
             }
 
             if (id != userViewModel.UserId)
@@ -66,33 +68,59 @@ namespace Yardy.Controllers
 
             _context.Entry(userViewModel).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UserExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            //try
+            //{
+            //    await _context.SaveChangesAsync();
+            //}
+            //catch (DbUpdateConcurrencyException)
+            //{
+            //    if (!UserExists(id))
+            //    {
+            //        return NotFound();
+            //    }
+            //    else
+            //    {
+            //        throw;
+            //    }
+            //}
 
             return NoContent();
         }
 
         // POST: api/User
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public ActionResult<User> PostUser(UserViewModel viewModel)
         {
-            _context.User.Add(user);
-            await _context.SaveChangesAsync();
+            if (ModelState.IsValid)
+            {
+                if (!user.CheckUserExists(viewModel.Username))
+                {
+                    User u = new User();
+                    u.UserId = viewModel.UserId;
+                    u.Username = viewModel.Username; //need encription
+                    u.Password = viewModel.Password;
+                    u.CreatedDate = DateTime.Now;
+                    u.Active = viewModel.Active;
 
-            return CreatedAtAction("GetUser", new { id = user.UserId }, user);
+                    user.InsertUser(u);
+
+                    return Ok(viewModel);
+                }
+                else
+                {
+                    //user exists already by that username
+                    var response = new HttpResponseMessage()
+                    {
+                        StatusCode = HttpStatusCode.Conflict
+                    };
+
+                    return BadRequest(new { error = "User already exists by that username" });
+                }
+            }
+            else
+            {
+                return BadRequest();
+            }
         }
 
         // DELETE: api/User/5

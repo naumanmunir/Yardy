@@ -10,7 +10,7 @@ import { CreateUserProfileComponent } from './sections/create-user-profile/creat
 import { appRoutes } from 'src/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { LoginComponent } from './sections/login/login.component';
+import { LoginComponent } from './login/login.component';
 import { CreatesaleComponent } from './sections/createsale/createsale.component';
 import { CurrentYardSalesComponent } from './components/current-yard-sales/current-yard-sales.component';
 
