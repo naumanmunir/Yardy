@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { User } from '../../interfaces/user';
+//import { User } from '../../interfaces/user';
+import { LoginService } from './Services/LoginService';
+import { LoginModel } from './Models/LoginModel';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -10,8 +12,10 @@ export class LoginComponent implements OnInit {
 
   loginForm: FormGroup;
   registerForm: FormGroup;
+  private loginService;
+  constructor(private loginFormBuilder: FormBuilder, private registerFormBuilder: FormBuilder, loginservice: LoginService) {
 
-  constructor(private loginFormBuilder: FormBuilder, private registerFormBuilder: FormBuilder) {
+    this.loginService = loginservice;
 
     this.loginForm = this.loginFormBuilder.group(
       {
@@ -31,10 +35,13 @@ export class LoginComponent implements OnInit {
 
   }
 
-  loginUser(userModel: User) {
-    
-    console.log(userModel.username);
-    console.log(userModel.password);
+  loginUser(loginModel: LoginModel) {
+
+    this.loginService.ValidateUserLogin(loginModel).subscribe(
+      response => {
+
+      }
+    );
   }
 
   registerUser() {

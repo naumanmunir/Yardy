@@ -5,14 +5,17 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Yardy.Models;
 using Yardy.ViewModels;
 
 namespace Yardy.Controllers
 {
+    [EnableCors("Public")]
     [Route("api/[controller]")]
     [ApiController]
     public class AuthenticateController : ControllerBase
@@ -20,9 +23,9 @@ namespace Yardy.Controllers
         private readonly AppSettings appSettings;
         private readonly IUser user;
 
-        public AuthenticateController(AppSettings ap, IUser user)
+        public AuthenticateController(IOptions<AppSettings> ap, IUser user)
         {
-            appSettings = ap;
+            appSettings = ap.Value;
             this.user = user;
         }
 

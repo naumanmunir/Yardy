@@ -15,9 +15,8 @@ namespace Yardy.Models
         public string Username { get; set; }
         [Required]
         public string Password { get; set; }
-        [ForeignKey("UserProfileId")]
         public int UserProfileID { get; set; }    //user profile relationship
-        public DateTime? CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
         public bool Active { get; set; }
     }
 }
