@@ -89,18 +89,17 @@ namespace Yardy.Controllers
 
         // POST: api/User
         [HttpPost]
-        public ActionResult<User> PostUser(UserViewModel viewModel)
+        public ActionResult<User> PostUser(CreateUserViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
                 if (!user.CheckUserExists(viewModel.Username))
                 {
                     User u = new User();
-                    u.UserId = viewModel.UserId;
                     u.Username = viewModel.Username; //need encription
                     u.Password = viewModel.Password;
                     u.CreatedDate = DateTime.Now;
-                    u.Active = viewModel.Active;
+                    u.Active = true;
 
                     user.InsertUser(u);
 

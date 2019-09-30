@@ -27,7 +27,7 @@ export class LoginService {
     return this.httpClient.post<any>(this.apiUrl, loginModel, this.httpOptions)
       .pipe(tap(data => {
 
-        console.log(data);
+        //console.log(data);
 
         if (data.Token != null) {
           //store username and JWT token in localstorage

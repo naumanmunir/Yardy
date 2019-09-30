@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { CreatesaleComponent } from './sections/createsale/createsale.component';
 import { CurrentYardSalesComponent } from './components/current-yard-sales/current-yard-sales.component';
+import { UserRegistrationComponent } from './userregistration/user-registration.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CurrentYardSalesComponent } from './components/current-yard-sales/curre
     CreateUserProfileComponent,
     LoginComponent,
     CreatesaleComponent,
-    CurrentYardSalesComponent
+    CurrentYardSalesComponent,
+    UserRegistrationComponent
   ],
   imports: [
     BrowserModule,

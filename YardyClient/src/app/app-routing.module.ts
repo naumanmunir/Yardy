@@ -7,7 +7,9 @@ const routes: Routes = [
   { path: 'userprofile', component: CreateUserProfileComponent },
 
   { path: 'login', component: LoginComponent },
-  { path: 'createsale', component: CreatesaleComponent }
+  { path: 'createsale', component: CreatesaleComponent },
+  { path: '', redirectTo: '/login', pathMatch: 'full' }
+  //{ path: '**', component: PageNotFoundComponent }
   
 
 ];
