@@ -6,24 +6,24 @@
     <hr>
     <div class="row">
       <div class="col-md-5">
-        <form [formGroup]="registerForm" (ngSubmit)="registerUser()">
+        <form #f="ngForm" novalidate (ngSubmit)="CreateUser()">
           <fieldset>
             <p class="text-uppercase pull-center"> SIGN UP</p>
             <div class="form-group">
-              <input type="text" name="username" id="regusername" class="form-control input-lg" placeholder="username" formControlName="username">
+              <input type="text" name="username" id="regusername" class="form-control input-lg" placeholder="username" [(ngModel)] = "createUserModel.username">
             </div>
             <div class="form-group">
-              <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" formControlName="email">
+              <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address"  [(ngModel)]="createUserModel.email">
             </div>
             <div class="form-group">
-              <input type="password" name="password" id="regpassword" class="form-control input-lg" placeholder="Password" formControlName="password">
+              <input type="password" name="password" id="regpassword" class="form-control input-lg" placeholder="Password" [(ngModel)]="password">
             </div>
             <div class="form-group">
-              <input type="password" name="password2" id="regpassword2" class="form-control input-lg" placeholder="Re-Type Password" formControlName="repassword">
+              <input type="password" name="repassword" id="regpassword2" class="form-control input-lg" placeholder="Re-Type Password" [(ngModel)]="repassword">
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input">
+                <input type="checkbox" class="form-check-input" [(ngModel)]="userAgreement" name="userAgreement">
                 By Clicking register you're agree to our policy & terms
               </label>
             </div>

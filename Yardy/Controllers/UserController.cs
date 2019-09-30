@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +14,8 @@ using Yardy.ViewModels;
 
 namespace Yardy.Controllers
 {
-    [Authorize]
+    //[Authorize]
+    [EnableCors("Public")]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -91,13 +93,15 @@ namespace Yardy.Controllers
         [HttpPost]
         public ActionResult<User> PostUser(CreateUserViewModel viewModel)
         {
+            //getting 400 error on client side
+            //testing on PostMan
             if (ModelState.IsValid)
             {
                 if (!user.CheckUserExists(viewModel.Username))
                 {
                     User u = new User();
-                    u.Username = viewModel.Username; //need encription
-                    u.Password = viewModel.Password;
+                    u.Username = viewModel.Username; 
+                    u.Password = viewModel.Password; //need encryption
                     u.CreatedDate = DateTime.Now;
                     u.Active = true;
 
@@ -118,7 +122,10 @@ namespace Yardy.Controllers
             }
             else
             {
-                return BadRequest();
+                viewModel.Password = string.Empty;
+                viewModel.RePassword = string.Empty;
+
+                return BadRequest(ModelState);
             }
         }
 
