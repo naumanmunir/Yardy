@@ -25,18 +25,17 @@ export class UserRegistrationComponent implements OnInit {
   }
 
 
-  CreateUser(createUserModel) {
+  CreateUser() {
 
-    this.createUserService.CreateUserAccount(createUserModel).subscribe(
+    this.createUserService.CreateUserAccount(this.createUserModel).subscribe(
       response => {
+
         //response from server
         console.log(response);
 
-
-
-        //if (response.StatusCode == "200") {
+        if (response.StatusCode == "200") {
           
-        //}
+        }
 
 
       }

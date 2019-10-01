@@ -93,21 +93,27 @@ namespace Yardy.Controllers
         [HttpPost]
         public ActionResult<User> PostUser(CreateUserViewModel viewModel)
         {
-            //getting 400 error on client side
-            //testing on PostMan
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) //Modelstate is valid when not meeting required attribute
             {
                 if (!user.CheckUserExists(viewModel.Username))
                 {
-                    User u = new User();
-                    u.Username = viewModel.Username; 
-                    u.Password = viewModel.Password; //need encryption
-                    u.CreatedDate = DateTime.Now;
-                    u.Active = true;
+                    if (viewModel.Password == viewModel.RePassword)
+                    {
+                        User u = new User();
+                        u.Username = viewModel.Username;
+                        u.Password = viewModel.Password; //need encryption
+                        u.CreatedDate = DateTime.Now;
+                        u.Active = true;
+                        u.UserProfileID = 20; //TESTING
 
-                    user.InsertUser(u);
+                        user.InsertUser(u);
 
-                    return Ok(viewModel);
+                        return Ok(viewModel);
+                    }
+                    else
+                    {
+                        return BadRequest(new { error = "Passwords do not match" });
+                    }
                 }
                 else
                 {

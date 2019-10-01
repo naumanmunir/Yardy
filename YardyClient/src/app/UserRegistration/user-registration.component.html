@@ -6,9 +6,9 @@
     <hr>
     <div class="row">
       <div class="col-md-5">
-        <form #f="ngForm" novalidate (ngSubmit)="CreateUser()">
+        <form #f="ngForm" (ngSubmit)="CreateUser()">
           <fieldset>
-            <p class="text-uppercase pull-center"> SIGN UP</p>
+            <p class="text-uppercase pull-center">SIGN UP</p>
             <div class="form-group">
               <input type="text" name="username" id="regusername" class="form-control input-lg" placeholder="username" [(ngModel)] = "createUserModel.username">
             </div>
@@ -16,14 +16,14 @@
               <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address"  [(ngModel)]="createUserModel.email">
             </div>
             <div class="form-group">
-              <input type="password" name="password" id="regpassword" class="form-control input-lg" placeholder="Password" [(ngModel)]="password">
+              <input type="password" name="password" id="regpassword" class="form-control input-lg" placeholder="Password" [(ngModel)]="createUserModel.password">
             </div>
             <div class="form-group">
-              <input type="password" name="repassword" id="regpassword2" class="form-control input-lg" placeholder="Re-Type Password" [(ngModel)]="repassword">
+              <input type="password" name="repassword" id="regpassword2" class="form-control input-lg" placeholder="Re-Type Password" [(ngModel)]="createUserModel.repassword">
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" [(ngModel)]="userAgreement" name="userAgreement">
+                <input type="checkbox" class="form-check-input" [(ngModel)]="createUserModel.userAgreement" name="userAgreement">
                 By Clicking register you're agree to our policy & terms
               </label>
             </div>
