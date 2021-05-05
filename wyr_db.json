@@ -1,0 +1,13 @@
+{
+  "categories": [
+    {
+      "categoryName": "Fun",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        }
+      ]
+    }
+  ]
+}
