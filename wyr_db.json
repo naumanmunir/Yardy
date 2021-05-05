@@ -12,6 +12,214 @@
           "answerTwo": "Horse"
         }
       ]
+    },
+{
+      "categoryName": "Popular",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Impossible",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Love",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Funny",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Hard",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Food",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Date",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Life",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Party",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Kids",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Ridiculous",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    }, 
+{
+      "categoryName": "Best",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Girls",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Boyfriend",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Girlfriend",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
+    },
+{
+      "categoryName": "Unique",
+      "questions": [
+        {
+          "answerOne": "Dog",
+          "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
+        }
+      ]
     }
   ]
 }
