@@ -6,6 +6,10 @@
         {
           "answerOne": "Dog",
           "answerTwo": "Cat"
+        },
+        {
+          "answerOne": "Dragon",
+          "answerTwo": "Horse"
         }
       ]
     }
