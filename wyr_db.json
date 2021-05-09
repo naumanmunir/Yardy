@@ -2,7 +2,7 @@
   "categories": [
     {
       "categoryName": "Popular",
-      "ImageResourceID": "",
+      "ImageResourceID": 0,
       "BgColor": "",
       "locked": "false",
       "questions": [
@@ -18,7 +18,7 @@
     },
     {
       "categoryName": "Impossible",
-      "ImageResourceID": "",
+      "ImageResourceID": 0,
       "BgColor": "",
       "locked": "false",
       "questions": [
@@ -82,7 +82,7 @@
     },
     {
       "categoryName": "Food",
-      "ImageResourceID": "",
+      "ImageResourceID": 0,
       "BgColor": "",
       "locked": "false",
       "questions": [
@@ -98,7 +98,7 @@
     },
     {
       "categoryName": "Date",
-      "ImageResourceID": "",
+      "ImageResourceID": 0,
       "BgColor": "",
       "locked": "false",
       "questions": [
@@ -194,7 +194,7 @@
     },
     {
       "categoryName": "Boyfriend",
-      "ImageResourceID": "",
+      "ImageResourceID": 0,
       "BgColor": "",
       "locked": "false",
       "questions": [
@@ -210,7 +210,7 @@
     },
     {
       "categoryName": "Girlfriend",
-      "ImageResourceID": "",
+      "ImageResourceID": 0,
       "BgColor": "",
       "locked": "false",
       "questions": [
@@ -226,7 +226,7 @@
     },
     {
       "categoryName": "Unique",
-      "ImageResourceID": "",
+      "ImageResourceID": 0,
       "BgColor": "",
       "locked": "false",
       "questions": [
