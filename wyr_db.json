@@ -1,20 +1,10 @@
 {
   "categories": [
-    {
-      "categoryName": "Fun",
-      "questions": [
-        {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
-        },
-        {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
-        }
-      ]
-    },
 {
       "categoryName": "Popular",
+  "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -28,6 +18,9 @@
     },
 {
       "categoryName": "Impossible",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -41,6 +34,9 @@
     },
 {
       "categoryName": "Love",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -54,6 +50,9 @@
     },
 {
       "categoryName": "Funny",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -67,6 +66,9 @@
     },
 {
       "categoryName": "Hard",
+    "ImageName": "zebra.jpg",
+  "BgColor":"ebebeb",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -80,6 +82,9 @@
     },
 {
       "categoryName": "Food",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -93,6 +98,9 @@
     },
 {
       "categoryName": "Date",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -106,6 +114,9 @@
     },
 {
       "categoryName": "Life",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -119,6 +130,9 @@
     },
 {
       "categoryName": "Party",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -130,21 +144,12 @@
         }
       ]
     },
-{
-      "categoryName": "Kids",
-      "questions": [
-        {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
-        },
-        {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
-        }
-      ]
-    },
+
 {
       "categoryName": "Ridiculous",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -158,6 +163,9 @@
     }, 
 {
       "categoryName": "Best",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -171,6 +179,9 @@
     },
 {
       "categoryName": "Girls",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -184,6 +195,9 @@
     },
 {
       "categoryName": "Boyfriend",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -197,6 +211,9 @@
     },
 {
       "categoryName": "Girlfriend",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
@@ -210,6 +227,9 @@
     },
 {
       "categoryName": "Unique",
+    "ImageName": "",
+  "BgColor":"",
+  "locked": "false",
       "questions": [
         {
           "answerOne": "Dog",
