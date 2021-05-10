@@ -2,7 +2,7 @@
   "categories": [
     {
       "categoryName": "Popular",
-      "BgColor": "#ffffff",
+      "BgColor": "#FEFC4F",
       "locked": "false",
       "questions": [
         {
@@ -17,7 +17,7 @@
     },
     {
       "categoryName": "Impossible",
-      "BgColor": "#ffffff",
+      "BgColor": "#3A8EE0",
       "locked": "false",
       "questions": [
         {
@@ -32,7 +32,7 @@
     },
     {
       "categoryName": "Love",
-      "BgColor": "#ffffff",
+      "BgColor": "#fedcd2",
       "locked": "false",
       "questions": [
         {
