@@ -47,7 +47,7 @@
     },
     {
       "categoryName": "Funny",
-      "BgColor": "#ffffff",
+      "BgColor": "#22824f",
       "locked": "false",
       "questions": [
         {
@@ -92,7 +92,7 @@
     },
     {
       "categoryName": "Date",
-      "BgColor": "#ffffff",
+      "BgColor": "#644F45",
       "locked": "false",
       "questions": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "categoryName": "Life",
-      "BgColor": "#ffffff",
+      "BgColor": "#6ef4f7",
       "locked": "false",
       "questions": [
         {
@@ -122,7 +122,7 @@
     },
     {
       "categoryName": "Party",
-      "BgColor": "#ffffff",
+      "BgColor": "#63ceb2",
       "locked": "false",
       "questions": [
         {
@@ -137,7 +137,7 @@
     },
     {
       "categoryName": "Ridiculous",
-      "BgColor": "#ffffff",
+      "BgColor": "#d5dce6",
       "locked": "false",
       "questions": [
         {
@@ -152,7 +152,7 @@
     },
     {
       "categoryName": "Best",
-      "BgColor": "#ffffff",
+      "BgColor": "#ffaec8",
       "locked": "false",
       "questions": [
         {
@@ -167,7 +167,7 @@
     },
     {
       "categoryName": "Girls",
-      "BgColor": "#ffffff",
+      "BgColor": "#f5a583",
       "locked": "false",
       "questions": [
         {
@@ -212,7 +212,7 @@
     },
     {
       "categoryName": "Unique",
-      "BgColor": "#ffffff",
+      "BgColor": "#2B333C",
       "locked": "false",
       "questions": [
         {
