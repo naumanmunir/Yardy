@@ -19,7 +19,7 @@
     {
       "categoryName": "Impossible",
       "ImageResourceID": 2131165320,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -35,7 +35,7 @@
     {
       "categoryName": "Love",
       "ImageResourceID": 2131165320,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -51,7 +51,7 @@
     {
       "categoryName": "Funny",
       "ImageResourceID": 2131165301,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -99,7 +99,7 @@
     {
       "categoryName": "Date",
       "ImageResourceID": 2131165294,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -115,7 +115,7 @@
     {
       "categoryName": "Life",
       "ImageResourceID": 2131165318,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -131,7 +131,7 @@
     {
       "categoryName": "Party",
       "ImageResourceID": 2131165355,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -147,7 +147,7 @@
     {
       "categoryName": "Ridiculous",
       "ImageResourceID": 2131165357,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -163,7 +163,7 @@
     {
       "categoryName": "Best",
       "ImageResourceID": 2131165280,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -179,7 +179,7 @@
     {
       "categoryName": "Girls",
       "ImageResourceID": 2131165302,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -195,7 +195,7 @@
     {
       "categoryName": "Boyfriend",
       "ImageResourceID": 0,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -211,7 +211,7 @@
     {
       "categoryName": "Girlfriend",
       "ImageResourceID": 0,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -227,7 +227,7 @@
     {
       "categoryName": "Unique",
       "ImageResourceID": 0,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
