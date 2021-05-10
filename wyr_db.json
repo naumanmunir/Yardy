@@ -153,7 +153,7 @@
     {
       "categoryName": "Best",
       "BgColor": "#ffaec8",
-      "locked": "false",
+      "locked": "true",
       "questions": [
         {
           "answerOne": "Dog",
@@ -168,7 +168,7 @@
     {
       "categoryName": "Girls",
       "BgColor": "#f5a583",
-      "locked": "false",
+      "locked": "true",
       "questions": [
         {
           "answerOne": "Dog",
@@ -183,7 +183,7 @@
     {
       "categoryName": "Boyfriend",
       "BgColor": "#28B2B2",
-      "locked": "false",
+      "locked": "true",
       "questions": [
         {
           "answerOne": "Dog",
@@ -198,7 +198,7 @@
     {
       "categoryName": "Girlfriend",
       "BgColor": "#ffeddf",
-      "locked": "false",
+      "locked": "true",
       "questions": [
         {
           "answerOne": "Dog",
@@ -213,7 +213,7 @@
     {
       "categoryName": "Unique",
       "BgColor": "#8bc74f",
-      "locked": "false",
+      "locked": "true",
       "questions": [
         {
           "answerOne": "Dog",
