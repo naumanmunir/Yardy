@@ -182,7 +182,7 @@
     },
     {
       "categoryName": "Boyfriend",
-      "BgColor": "#ffffff",
+      "BgColor": "#28B2B2",
       "locked": "false",
       "questions": [
         {
@@ -197,7 +197,7 @@
     },
     {
       "categoryName": "Girlfriend",
-      "BgColor": "#ffffff",
+      "BgColor": "#ffeddf",
       "locked": "false",
       "questions": [
         {
@@ -212,7 +212,7 @@
     },
     {
       "categoryName": "Unique",
-      "BgColor": "#2B333C",
+      "BgColor": "#8bc74f",
       "locked": "false",
       "questions": [
         {
