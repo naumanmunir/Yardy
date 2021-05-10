@@ -3,7 +3,7 @@
     {
       "categoryName": "Popular",
       "ImageResourceID": 0,
-      "BgColor": "",
+      "BgColor": "#fff",
       "locked": "false",
       "questions": [
         {
@@ -18,7 +18,7 @@
     },
     {
       "categoryName": "Impossible",
-      "ImageResourceID": 0,
+      "ImageResourceID": 2131165320,
       "BgColor": "",
       "locked": "false",
       "questions": [
@@ -67,7 +67,7 @@
     {
       "categoryName": "Hard",
       "ImageResourceID": 2131165303,
-      "BgColor": "ebebeb",
+      "BgColor": "#ebebeb",
       "locked": "false",
       "questions": [
         {
@@ -82,8 +82,8 @@
     },
     {
       "categoryName": "Food",
-      "ImageResourceID": 0,
-      "BgColor": "",
+      "ImageResourceID": 2131165301,
+      "BgColor": "#ffec5f",
       "locked": "false",
       "questions": [
         {
@@ -98,7 +98,7 @@
     },
     {
       "categoryName": "Date",
-      "ImageResourceID": 0,
+      "ImageResourceID": 2131165294,
       "BgColor": "",
       "locked": "false",
       "questions": [
