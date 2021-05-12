@@ -6,12 +6,16 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "have more money?",
+          "answerTwo": "have more time?"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "have a life rewind button",
+          "answerTwo": "have a life pause button"
+        },
+        {
+          "answerOne": "be able to talk to animals",
+          "answerTwo": "speak all foreign languages"
         }
       ]
     },
@@ -96,12 +100,44 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "be married to a 10 with a bad personality",
+          "answerTwo": "a 6 with amazing personality"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "stay in for a date",
+          "answerTwo": "go out for a date"
+        },
+        {
+          "answerOne": "get up early",
+          "answerTwo": "stay up late"
+        },
+        {
+          "answerOne": "watch a comedy movie for date night",
+          "answerTwo": "a horror movie for date night"
+        },
+        {
+          "answerOne": "lose the ability to hear",
+          "answerTwo": "lose the ability to walk"
+        },
+        {
+          "answerOne": "be in a bad relationship for the rest of your life",
+          "answerTwo": "have no SO for the rest of your life"
+        },
+        {
+          "answerOne": "go to fancy, expensive restuarant",
+          "answerTwo": "a relaxed, cheaper restuarant that is equally good"
+        },
+        {
+          "answerOne": "spend $5,000 on traveling",
+          "answerTwo": "spend $5,000 on a physical item, like a TV"
+        },
+        {
+          "answerOne": "wear fashionable clothes",
+          "answerTwo": "wear comfortable clothes"
+        },
+        {
+          "answerOne": "not shower for one week",
+          "answerTwo": "not brush your teeth for two weeks"
         }
       ]
     },
