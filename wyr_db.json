@@ -55,12 +55,24 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "have an incredibly annoying high-pitched voice",
+          "answerTwo": "a really deep manly voice?"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "have a full-blown moustache for a year",
+          "answerTwo": "permanently hairy legs for ten years?"
+        },
+        {
+          "answerOne": "clog the toilet on a first date",
+          "answerTwo": "first day at a new job?"
+        },
+        {
+          "answerOne": "be three feet tall",
+          "answerTwo": "be eight feet tall?"
+        },
+        {
+          "answerOne": "have a nose that never stops growing",
+          "answerTwo": "have ears that never stop growing?"
         }
       ]
     },
