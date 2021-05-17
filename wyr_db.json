@@ -171,20 +171,64 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "have an incredibly annoying high-pitched voice",
-          "answerTwo": "a really deep manly voice?"
+          "answerOne": "Have an incredibly annoying high-pitched voice",
+          "answerTwo": "A really deep manly voice?"
         },
         {
-          "answerOne": "have a full-blown moustache for a year",
-          "answerTwo": "permanently hairy legs for ten years?"
+          "answerOne": "Have a full-blown moustache for a year",
+          "answerTwo": "Permanently hairy legs for ten years?"
         },
         {
-          "answerOne": "clog the toilet on a first date",
-          "answerTwo": "first day at a new job?"
+          "answerOne": "Clog the toilet on a first date",
+          "answerTwo": "First day at a new job?"
         },
         {
-          "answerOne": "be three feet tall",
-          "answerTwo": "be eight feet tall?"
+          "answerOne": "Be three feet tall",
+          "answerTwo": "Be eight feet tall?"
+        },
+        {
+          "answerOne": "Have a nose that never stops growing",
+          "answerTwo": "Have ears that never stop growing"
+        },
+        {
+          "answerOne": "Brush your teeth with clean toilet water from your own toilet",
+          "answerTwo": "Drop your phone in a porta potty"
+        },
+        {
+          "answerOne": "Get a face tattoo of something you choose",
+          "answerTwo": "A tattoo in a discreet area but someone else chooses it randomly"
+        },
+        {
+          "answerOne": "Have only one eyebrow",
+          "answerTwo": "No eyelashes"
+        },
+        {
+          "answerOne": "Poop in your pants at work",
+          "answerTwo": "Pee in your pants on a date"
+        },
+        {
+          "answerOne": "Own an elephant the size of a hamster",
+          "answerTwo": "A hamster the size of an elephant"
+        },
+        {
+          "answerOne": "Fight 100 duck-sized horses",
+          "answerTwo": "One horse-sized duck"
+        },
+        {
+          "answerOne": "Be 600 pounds",
+          "answerTwo": "4 feet in height"
+        },
+        {
+          "answerOne": "Cry rainbow-colored tears",
+          "answerTwo": "Fart rainbow-colored gas balls"
+        },
+        {
+          "answerOne": "have a nose that never stops growing",
+          "answerTwo": "have ears that never stop growing?"
+        },
+        {
+          "answerOne": "have a nose that never stops growing",
+          "answerTwo": "have ears that never stop growing?"
         },
         {
           "answerOne": "have a nose that never stops growing",
@@ -343,8 +387,8 @@
           "answerTwo": "Give up everything you have in the bank right now"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "Wake up as the opposite sex once a month",
+          "answerTwo": "Wake up in strange place once a year"
         }
       ]
     },
@@ -409,8 +453,8 @@
           "answerTwo": "Be a witness to a deadly assault"
         },
         {
-          "answerOne": "Find a dead body",
-          "answerTwo": "Be a witness to a deadly assault"
+          "answerOne": "Try to survive a month in the desert with your friends",
+          "answerTwo": "5 years in a reality TV house with really dumb cast members"
         }
       ]
     },
@@ -420,8 +464,8 @@
       "locked": "true",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "Have only 8 fingers",
+          "answerTwo": "Have only 8 toes"
         },
         {
           "answerOne": "Dragon",
