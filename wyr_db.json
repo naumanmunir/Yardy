@@ -156,8 +156,8 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "Marry the person of your dreams",
+          "answerTwo": "Have the job of your dreams"
         },
         {
           "answerOne": "Dragon",
@@ -198,12 +198,72 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "Lose all of your friends but win the lottery",
+          "answerTwo": "Keep your friends but you don’t get a raise for the rest of your life"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "Get a pimple the night before important dates",
+          "answerTwo": "Get sick every time after a important date is over"
+        },
+        {
+          "answerOne": "Always have tangled hair",
+          "answerTwo": "Always have wet underarms"
+        },
+        {
+          "answerOne": "Be able to run 200 miles an hour",
+          "answerTwo": "Be able to fly 20 miles an hour"
+        },
+        {
+          "answerOne": "Give up your favorite food",
+          "answerTwo": "Give up sex"
+        },
+        {
+          "answerOne": "Eat dinner alone for a year",
+          "answerTwo": "Have to take showers at a public gym for a year"
+        },
+        {
+          "answerOne": "Die before your spouse",
+          "answerTwo": "After"
+        },
+        {
+          "answerOne": "Give up brushing your teeth",
+          "answerTwo": "Give up brushing your hair"
+        },
+        {
+          "answerOne": "Win the lottery",
+          "answerTwo": "live—in good health—to be 200 years old"
+        },
+        {
+          "answerOne": "Never age physically",
+          "answerTwo": "Never age mentally"
+        },
+        {
+          "answerOne": "Be able to play every musical instrument",
+          "answerTwo": "Master every type of sport"
+        },
+        {
+          "answerOne": "Have no friends but be rich",
+          "answerTwo": "Have lots of friends but be dirt poor"
+        },
+        {
+          "answerOne": "Have your parents walk in on you while you were doing it",
+          "answerTwo": "Accidentally walk in on them doing it"
+        },
+        {
+          "answerOne": "Fart out loud during a presentation",
+          "answerTwo": "Snort while laughing on a great first date"
+        },
+        {
+          "answerOne": "Always be overdressed",
+          "answerTwo": "Always be underdressed"
+        },
+        {
+          "answerOne": "Drown to death",
+          "answerTwo": "Be burned to death"
+        },
+        {
+          "answerOne": "Constantly itch all over",
+          "answerTwo": "Be in excruciating pain for a whole day once a year"
         }
       ]
     },
