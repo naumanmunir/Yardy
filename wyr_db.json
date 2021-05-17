@@ -509,12 +509,32 @@
       "locked": "true",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "Go out",
+          "answerTwo": "Stay in"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "Ask for help",
+          "answerTwo": "Figure it out by yourself"
+        },
+        {
+          "answerOne": "Be rich and famous",
+          "answerTwo": "Just rich"
+        },
+        {
+          "answerOne": "Spend the day inside",
+          "answerTwo": "Spend the day outside"
+        },
+        {
+          "answerOne": "",
+          "answerTwo": "Do it by yourself"
+        },
+        {
+          "answerOne": "Ask for help",
+          "answerTwo": "Do it by yourself"
+        },
+        {
+          "answerOne": "Ask for help",
+          "answerTwo": "Do it by yourself"
         }
       ]
     },
