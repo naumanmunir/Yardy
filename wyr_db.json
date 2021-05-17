@@ -93,12 +93,60 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "Give up social media",
+          "answerTwo": "Eat the same dinner for the rest of your life"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "Lose all of the money you’ve earned this year",
+          "answerTwo": "Lose all of the memories you’ve gained this year"
+        },
+        {
+          "answerOne": "Have no taste",
+          "answerTwo": "Be colorblind"
+        },
+        {
+          "answerOne": "Know the date of your death",
+          "answerTwo": "The cause of your death"
+        },
+        {
+          "answerOne": "Flip a coin for a chance to win $200",
+          "answerTwo": "Immediately win $100"
+        },
+        {
+          "answerOne": "Always hit a red light for the rest of your life",
+          "answerTwo": "Always get slow internet after the sun goes down"
+        },
+        {
+          "answerOne": "Lose all of the money you’ve earned this year",
+          "answerTwo": "Lose all of the memories you’ve gained this year"
+        },
+        {
+          "answerOne": "Have the lights on",
+          "answerTwo": "Off if you knew the room was full of snakes"
+        },
+        {
+          "answerOne": "Win $25,000",
+          "answerTwo": "Have your best friend win $100,000"
+        },
+        {
+          "answerOne": "Work a high-paying job that you hate",
+          "answerTwo": "Your dream job with only enough money for basic necessities"
+        },
+        {
+          "answerOne": "Wake up in your underwear at work",
+          "answerTwo": "Wake up naked in the woods 20 miles from home"
+        },
+        {
+          "answerOne": "Be able to read someone’s mind",
+          "answerTwo": "Control their mind"
+        },
+        {
+          "answerOne": "Look at your mom’s search history",
+          "answerTwo": "your dad’s search history"
+        },
+        {
+          "answerOne": "Always feel the urge to pee",
+          "answerTwo": "never know when you have to pee (always wear a diaper)"
         }
       ]
     },
@@ -218,6 +266,10 @@
         {
           "answerOne": "not shower for one week",
           "answerTwo": "not brush your teeth for two weeks"
+        },
+        {
+          "answerOne": "Date the hottest person in the world but not be able to have sex with them",
+          "answerTwo": "Date an ugly person that you can have sex with"
         }
       ]
     },
@@ -227,8 +279,8 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "Give up your salary for the next five years",
+          "answerTwo": "Give up everything you have in the bank right now"
         },
         {
           "answerOne": "Dragon",
@@ -257,12 +309,48 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "Fight a chicken to the death every time you get into a car",
+          "answerTwo": "Fight an orangutan to the death once a year, but you get a sword"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "Find a dead body",
+          "answerTwo": "Be a witness to a deadly assault"
+        },
+        {
+          "answerOne": "Eat a live worm",
+          "answerTwo": "be locked in a room with a tarantula for an hour (but not know where the tarantula is"
+        },
+        {
+          "answerOne": "Be 4 years old your entire life",
+          "answerTwo": "Be 90 years old your entire life"
+        },
+        {
+          "answerOne": "Save 3 of your closest family members",
+          "answerTwo": "1,000 people you don’t know"
+        },
+        {
+          "answerOne": "Have a lot of mediocre friends",
+          "answerTwo": "Only one really good friend?"
+        },
+        {
+          "answerOne": "Smack a puppy",
+          "answerTwo": "Get smacked by your dad in public"
+        },
+        {
+          "answerOne": "Lose all your teeth",
+          "answerTwo": "Lose a day of your life every time you kissed someone"
+        },
+        {
+          "answerOne": "Give up cursing forever",
+          "answerTwo": "Give up ice cream for 10 years"
+        },
+        {
+          "answerOne": "Find a dead body",
+          "answerTwo": "Be a witness to a deadly assault"
+        },
+        {
+          "answerOne": "Find a dead body",
+          "answerTwo": "Be a witness to a deadly assault"
         }
       ]
     },
