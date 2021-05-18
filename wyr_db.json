@@ -238,6 +238,10 @@
         {
           "answerOne": "Have the same hobbies",
           "answerTwo": "different hobbies"
+        },
+        {
+          "answerOne": "Never have sex",
+          "answerTwo": "Never find love"
         }
       ]
     },
@@ -393,12 +397,80 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "Eat a raw onion",
+          "answerTwo": "Two raw heads of garlic"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "Have to eat one jar of jam every day for the rest of your life",
+          "answerTwo": "Never be able to eat bread again"
+        },
+        {
+          "answerOne": "Have the only beverage you can drink be water",
+          "answerTwo": "The only food you can eat be salad"
+        },
+        {
+          "answerOne": "Have cheddar popcorn",
+          "answerTwo": "Popcorn with movie theatre butter"
+        },
+        {
+          "answerOne": "Have cake for dessert",
+          "answerTwo": "Cookies for dessert"
+        },
+        {
+          "answerOne": "live in a world with no caffeine",
+          "answerTwo": "a world with no meat"
+        },
+        {
+          "answerOne": "eat pizza",
+          "answerTwo": "ice cream as your own meal for the rest of your life"
+        },
+        {
+          "answerOne": "be vegetarian",
+          "answerTwo": "be carnivorous"
+        },
+        {
+          "answerOne": "Eat a pizza with pinapples as toppings",
+          "answerTwo": "Eat a pizza with worms as toppings"
+        },
+        {
+          "answerOne": "give up cheese forever",
+          "answerTwo": "give up chocolate forever"
+        },
+        {
+          "answerOne": "eat every meal with ketchup",
+          "answerTwo": "eat every meal with mayo"
+        },
+        {
+          "answerOne": "eat pizza for breakfast every morning",
+          "answerTwo": "eat pancakes for dinner every night"
+        },
+        {
+          "answerOne": "give up sugar",
+          "answerTwo": "give up salt"
+        },
+        {
+          "answerOne": "have a world without french fries",
+          "answerTwo": "have a world without onion rings"
+        },
+        {
+          "answerOne": "give up ice cream forever",
+          "answerTwo": "give up cake forever"
+        },
+        {
+          "answerOne": "Have to eat one jar of jam every day for the rest of your life",
+          "answerTwo": "Never be able to eat bread again"
+        },
+        {
+          "answerOne": "Have to eat one jar of jam every day for the rest of your life",
+          "answerTwo": "Never be able to eat bread again"
+        },
+        {
+          "answerOne": "Have to eat one jar of jam every day for the rest of your life",
+          "answerTwo": "Never be able to eat bread again"
+        },
+        {
+          "answerOne": "Have to eat one jar of jam every day for the rest of your life",
+          "answerTwo": "Never be able to eat bread again"
         }
       ]
     },
@@ -450,6 +522,14 @@
         {
           "answerOne": "Date the hottest person in the world but not be able to have sex with them",
           "answerTwo": "Date an ugly person that you can have sex with"
+        },
+        {
+          "answerOne": "Share a toothbrush with your partner",
+          "answerTwo": "Have to wear your partner’s underwear"
+        },
+        {
+          "answerOne": "Always sweat profusely when talking to your partner",
+          "answerTwo": "Constantly forget what you were going to say"
         }
       ]
     },
@@ -628,13 +708,34 @@
       "locked": "true",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "Have to eat fast food every day",
+          "answerTwo": "Only be able to drink water"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "Have to live with an embarrassing tattoo",
+          "answerTwo": "Have to live with a bad piercing"
+        },
+        {
+          "answerOne": "Wrestle a gorilla",
+          "answerTwo": "Wrestle 2 alligators"
+        },
+        {
+          "answerOne": "Have a lifetime subscription to Netflix",
+          "answerTwo": "Free Starbucks daily"
+        },
+        {
+          "answerOne": "Be stuck in a cage with a tiger for five minutes",
+          "answerTwo": "Have to eat three-year-old moldy cheese"
+        },
+        {
+          "answerOne": "Be the last two people in a zombie apocalypse",
+          "answerTwo": "Be on a stranded island"
+        },
+        {
+          "answerOne": "Reincarnate as a lion",
+          "answerTwo": "Reincarnate as a dog"
         }
+        
       ]
     }
   ]
