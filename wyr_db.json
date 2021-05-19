@@ -546,6 +546,50 @@
         {
           "answerOne": "Always sweat profusely when talking to your partner",
           "answerTwo": "Constantly forget what you were going to say"
+        },
+        {
+          "answerOne": "pay for a meal",
+          "answerTwo": "have someone pay for you"
+        },
+        {
+          "answerOne": "live in a city",
+          "answerTwo": "live in the countryside"
+        },
+        {
+          "answerOne": "spend all day at home",
+          "answerTwo": "spend all day out of the house"
+        },
+        {
+          "answerOne": "date for a long time",
+          "answerTwo": "get into a relationship as soon as possible"
+        },
+        {
+          "answerOne": "share food",
+          "answerTwo": "have separate meals"
+        },
+        {
+          "answerOne": "get drunk",
+          "answerTwo": "be sober"
+        },
+        {
+          "answerOne": "never drink alcohol again",
+          "answerTwo": "never smoke again"
+        },
+        {
+          "answerOne": "sleep under the stars",
+          "answerTwo": "stay in a hotel"
+        },
+        {
+          "answerOne": "go to the beach",
+          "answerTwo": "go to bungee jumping"
+        },
+        {
+          "answerOne": "receive flowers",
+          "answerTwo": "send flowers to someone"
+        },
+        {
+          "answerOne": "be told where you are going on a date",
+          "answerTwo": "be surprised"
         }
       ]
     },
@@ -642,12 +686,68 @@
       "locked": "false",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "have telekinesis (the ability to move things with your mind)",
+          "answerTwo": "have telepathy (the ability to read minds)"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "team up with Wonder Woman",
+          "answerTwo": "team up with Captain Marvel"
+        },
+        {
+          "answerOne": "find true love today",
+          "answerTwo": "win the lottery next year"
+        },
+        {
+          "answerOne": "be in jail for five years",
+          "answerTwo": "be in a coma for a decade"
+        },
+        {
+          "answerOne": "have another 10 years with your partner",
+          "answerTwo": "a one-night stand with your celebrity crush"
+        },
+        {
+          "answerOne": "lose your sight",
+          "answerTwo": "lose your memories"
+        },
+        {
+          "answerOne": "have universal respect",
+          "answerTwo": "have unlimited power"
+        },
+        {
+          "answerOne": "give up air conditioning and heating for the rest of your life",
+          "answerTwo": "give up the Internet for the rest of your life"
+        },
+        {
+          "answerOne": "swim in a pool full of Nutella",
+          "answerTwo": "swim in a pool full of maple syrup"
+        },
+        {
+          "answerOne": "labor under a hot sun",
+          "answerTwo": "labor under extreme cold"
+        },
+        {
+          "answerOne": "bungee jump off a cliff with Chris Hemsworth",
+          "answerTwo": "take a walk on the beach with Harry Styles"
+        },
+        {
+          "answerOne": "go on a tour with Ariana Grande",
+          "answerTwo": "go on a cruise with Rihanna"
+        },
+        {
+          "answerOne": "go on a picnic with Zendaya",
+          "answerTwo": "take a cooking class with Emma Stone"
+        },
+        {
+          "answerOne": "see the Eiffel Tower with Zayn Malik",
+          "answerTwo": "go scuba diving off the coast of Mexico with Harry Styles"
+        },
+        {
+          "answerOne": "go to a movie with Will Smith",
+          "answerTwo": "go shopping with Shawn Mendes"
+        },
+        {
+          "answerOne": "have dinner with Chrissy Teigen and John Legend",
+          "answerTwo": "have dinner with Kim Kardashian and Kanye West"
         }
       ]
     },
