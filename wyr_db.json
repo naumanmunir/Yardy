@@ -886,6 +886,10 @@
         {
           "answerOne": "have 'Baby Shark' stuck in your head forever",
           "answerTwo": "have the jingle from your least favorite commercial"
+        },
+        {
+          "answerOne": "let your boss see your full internet history",
+          "answerTwo": "let your parents see your full internet history"
         }
       ]
     },
@@ -895,12 +899,88 @@
       "locked": "true",
       "questions": [
         {
-          "answerOne": "Dog",
-          "answerTwo": "Cat"
+          "answerOne": "never play video games again or never use your favorite mobile app again",
+          "answerTwo": "never use your favorite mobile app again"
         },
         {
-          "answerOne": "Dragon",
-          "answerTwo": "Horse"
+          "answerOne": "spend a day without your phone or a day with no people at all",
+          "answerTwo": "spend a day with no people at all"
+        },
+        {
+          "answerOne": "only use email to communicate",
+          "answerTwo": "only use voice calls (no video calls)"
+        },
+        {
+          "answerOne": "read only e-books",
+          "answerTwo": "read only physical booksl"
+        },
+        {
+          "answerOne": "live without a toaster",
+          "answerTwo": "live without a microwave"
+        },
+        {
+          "answerOne": "have no air conditioning",
+          "answerTwo": "have no heating"
+        },
+        {
+          "answerOne": "only charge your phone once a week",
+          "answerTwo": "not have a camera on your phone"
+        },
+        {
+          "answerOne": "never use Tiktok again",
+          "answerTwo": "never use Snapchat again"
+        },
+        {
+          "answerOne": "never use a GPS",
+          "answerTwo": "only be able to drive stick shift cars"
+        },
+        {
+          "answerOne": "only use Netflix",
+          "answerTwo": "only use Hulu"
+        },
+        {
+          "answerOne": "have to listen to only Justin Bieber for the rest of your life",
+          "answerTwo": "have to listen to only Ariana Grande for the rest of your life"
+        },
+        {
+          "answerOne": "have ten siblings",
+          "answerTwo": "be an only child"
+        },
+        {
+          "answerOne": "never wear deodorant",
+          "answerTwo": "have really bad dandruff"
+        },
+        {
+          "answerOne": "make out on your first date",
+          "answerTwo": "wait for the right time"
+        },
+        {
+          "answerOne": "have no physical intimacy",
+          "answerTwo": "have no true love"
+        },
+        {
+          "answerOne": "be the subject matter of gossip",
+          "answerTwo": "never being talked about at all"
+        },
+        {
+          "answerOne": "be married to someone extremely attractive ",
+          "answerTwo": "be extremely attractive"
+        },
+        {
+          "answerOne": "date an ugly rich guy",
+          "answerTwo": "a poor but good-looking guy"
+        },
+        {
+          "answerOne": "be a talk show host",
+          "answerTwo": "be a runway model"
+        },
+        {
+          "answerOne": "be beautiful and dumb",
+          "answerTwo": "be ugly and rich"
+        },
+        {
+          "answerOne": "have freckles",
+          "answerTwo": "have dimples"
         }
       ]
     },
